@@ -29,8 +29,7 @@ map.addControl(nav);
 
 var directions = new MapboxDirections({
     accessToken: mapboxgl.accessToken,
-    unit: 'metric',
-    profile: 'mapbox/cycling'
+    unit: 'metric'
   });
   
   
